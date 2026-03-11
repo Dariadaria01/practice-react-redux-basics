@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { useDispatch } from 'react-redux';
+import { removeAllUsers } from './../src/redux/actions';
 const Task05 = () => {
 
   const dispatch = useDispatch();
